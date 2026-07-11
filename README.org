@@ -1,6 +1,8 @@
 * Retronet
+[[./imgs/logo-black.png]]
 My project to create a network of mostly emulated machines running 'legacy' operating systems. The ultimate goal of this project is to learn as much as possible about older systems and networking, as I believe that computer history is something that should be better learned and understood more widely by those in technology. I hope that this project will serve as the infrastructure for other projects of mine, such as a web interface to interact with these systems and whatever else comes to my mind with all of the tools I will have avaliable.
-
+* Current Status
+The emulated VAX and PDP10 machines are currently running and working fine, they are both connected to TCPIP to Nabu and Enlil and support basic SMTP, FTP, and Finger (at least with the VAX) well enough now. The S/370 system is also running, with very limited connectivity to the rest of the network. Nabu is also working well, running most of the basic services avaliable on the network.
 * The plan so far
 ** Main systems on the network
 | Hostname | Architecture  | OS          | Purpose                      | IP (if applicable) | Alwyas online |
@@ -33,3 +35,5 @@ My project to create a network of mostly emulated machines running 'legacy' oper
 | N/A             | Smalltalk-80 (on Nabu)   |       N/A |
 | Nebuchadnezzar  | Sun Blade 100            | 10.2.2.45 |
 | Ashurbanipal    | SGI Indy                 | 10.2.2.47 |
+* Why I am doing this
+TODO
