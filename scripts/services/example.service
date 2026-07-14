@@ -1,0 +1,13 @@
+[Unit]
+Description=VMS4.7 on SIMH
+After=multi-user.target
+
+[Service]
+Type=forking
+User=root
+Group=root
+ExecStart=/bin/sh /root/dec20/start.sh
+
+[Install]
+WantedBy=multi-user.target
+
