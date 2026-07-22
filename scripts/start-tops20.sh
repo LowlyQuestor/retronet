@@ -3,12 +3,6 @@
 # Author: Aidan Simon
 # License: GPL3
 
-# Initial Params
-set timeout 20
-
-# Start the emulator
-spawn "./start.sh"
-
 # Startup sequence
 expect "KLH10#"
 send "GO\r"
