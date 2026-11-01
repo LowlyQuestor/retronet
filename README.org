@@ -8,7 +8,7 @@ The emulated VAX and PDP10 machines are currently running and working fine, they
 ** Main systems on the network
 | Hostname | Architecture  | OS          | Purpose                      | IP (if applicable) | Alwyas online |
 |----------+---------------+-------------+------------------------------+--------------------+---------------|
-| Nabu     | amd64`        | Tribblix    | Main Unix server             |           10.2.2.5 | Y             |
+| Nabu     | amd64         | Tribblix    | Main Unix server             |           10.2.2.5 | Y             |
 | Nergal   | Microvax 3900 | OpenVMS 7.3 | Machine for user interaction |           10.2.2.3 | Y             |
 | Enlil    | amd64         | OPNSense    | Router                       |           10.2.2.1 | Y             |
 | Marduk   | KL-10         | TOPS-20     | Mainframe                    |           10.2.2.7 | Y             |
